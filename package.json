@@ -1,0 +1,17 @@
+{
+  "name": "viem-cli-wallet",
+  "version": "1.0.0",
+  "description": "基于 Viem.js 的 Sepolia CLI 钱包：生成密钥对、查询余额、构造 EIP-1559 ERC20 交易、签名、发送",
+  "type": "module",
+  "scripts": {
+    "create": "node wallet.js create",
+    "balance": "node wallet.js balance",
+    "build": "node wallet.js build",
+    "sign": "node wallet.js sign",
+    "send": "node wallet.js send"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "viem": "^2.58.0"
+  }
+}
